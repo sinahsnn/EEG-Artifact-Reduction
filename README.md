@@ -12,7 +12,16 @@ In this repository, some blind and semi-blind source separation methods, such as
 ## Question 3  
 aksdfjlskdfjsdlkfjsdlkf
 ## Question 4  
-aksdfjlskdfjsdlkfjsdlkf
+the data contains 8 channels signals whose duration are 100 second. the data is a linear combination of some sources and noises. three sources are signals with the following charactristics:
+* s1(t) : s1 is a periodic triangular signal. 
+* s2(t) : s2 is a non-statinary signal which was on in some special intervals.
+* s3(t) : s3 is a Band limited signal. 
+* x(t) = x1(t) + x2(t) + x3(t) + x4(t) 
+* x1 and x2 and x3 are related to s1 , s2 , and s3' s effect recpectivelt and x4 is related to noise sources effect. 
+* in this part we use two semi bline source speration method named GEVD and DSS for denoising the eeg signals. 
+-
+-
+-
 ## Question 5  
 aksdfjlskdfjsdlkfjsdlkf
 
